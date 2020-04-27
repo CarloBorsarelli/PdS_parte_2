@@ -1,0 +1,3 @@
+/home/paolo/CLionProjects/ProgII/labs/lab2/example_1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/paolo/CLionProjects/ProgII/labs/lab2/example_1/cmake-build-debug/CMakeFiles/example_1.dir
+/home/paolo/CLionProjects/ProgII/labs/lab2/example_1/cmake-build-debug/CMakeFiles/edit_cache.dir

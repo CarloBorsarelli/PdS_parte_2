@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/20_04_08.dir/main.cpp.o CMakeFiles/20_04_08.dir/e00.cpp.o  -o 20_04_08 

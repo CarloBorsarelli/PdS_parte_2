@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/20_03_27.dir/main.cpp.o  -o 20_03_27 

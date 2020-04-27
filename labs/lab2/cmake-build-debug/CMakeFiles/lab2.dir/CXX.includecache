@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/paolo/CLionProjects/ProgII/labs/lab2/Directory.h
+string
+-
+memory
+-
+vector
+-
+unordered_map
+-
+
+/home/paolo/CLionProjects/ProgII/labs/lab2/main.cpp
+iostream
+-
+memory
+-
+Directory.h
+/home/paolo/CLionProjects/ProgII/labs/lab2/Directory.h
+
