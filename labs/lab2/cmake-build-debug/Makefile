@@ -48,10 +48,10 @@ RM = /opt/CLion/clion-2019.3.4/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/paolo/CLionProjects/ProgII/labs/lab2
+CMAKE_SOURCE_DIR = /home/paolo/CLionProjects/PdS_parte_2/labs/lab2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/paolo/CLionProjects/ProgII/labs/lab2/cmake-build-debug
+CMAKE_BINARY_DIR = /home/paolo/CLionProjects/PdS_parte_2/labs/lab2/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/paolo/CLionProjects/ProgII/labs/lab2/cmake-build-debug/CMakeFiles /home/paolo/CLionProjects/ProgII/labs/lab2/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/paolo/CLionProjects/PdS_parte_2/labs/lab2/cmake-build-debug/CMakeFiles /home/paolo/CLionProjects/PdS_parte_2/labs/lab2/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/paolo/CLionProjects/ProgII/labs/lab2/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/paolo/CLionProjects/PdS_parte_2/labs/lab2/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,6 +123,33 @@ lab2/fast:
 	$(MAKE) -f CMakeFiles/lab2.dir/build.make CMakeFiles/lab2.dir/build
 .PHONY : lab2/fast
 
+Base.o: Base.cpp.o
+
+.PHONY : Base.o
+
+# target to build an object file
+Base.cpp.o:
+	$(MAKE) -f CMakeFiles/lab2.dir/build.make CMakeFiles/lab2.dir/Base.cpp.o
+.PHONY : Base.cpp.o
+
+Base.i: Base.cpp.i
+
+.PHONY : Base.i
+
+# target to preprocess a source file
+Base.cpp.i:
+	$(MAKE) -f CMakeFiles/lab2.dir/build.make CMakeFiles/lab2.dir/Base.cpp.i
+.PHONY : Base.cpp.i
+
+Base.s: Base.cpp.s
+
+.PHONY : Base.s
+
+# target to generate assembly for a file
+Base.cpp.s:
+	$(MAKE) -f CMakeFiles/lab2.dir/build.make CMakeFiles/lab2.dir/Base.cpp.s
+.PHONY : Base.cpp.s
+
 Directory.o: Directory.cpp.o
 
 .PHONY : Directory.o
@@ -149,6 +176,33 @@ Directory.s: Directory.cpp.s
 Directory.cpp.s:
 	$(MAKE) -f CMakeFiles/lab2.dir/build.make CMakeFiles/lab2.dir/Directory.cpp.s
 .PHONY : Directory.cpp.s
+
+File.o: File.cpp.o
+
+.PHONY : File.o
+
+# target to build an object file
+File.cpp.o:
+	$(MAKE) -f CMakeFiles/lab2.dir/build.make CMakeFiles/lab2.dir/File.cpp.o
+.PHONY : File.cpp.o
+
+File.i: File.cpp.i
+
+.PHONY : File.i
+
+# target to preprocess a source file
+File.cpp.i:
+	$(MAKE) -f CMakeFiles/lab2.dir/build.make CMakeFiles/lab2.dir/File.cpp.i
+.PHONY : File.cpp.i
+
+File.s: File.cpp.s
+
+.PHONY : File.s
+
+# target to generate assembly for a file
+File.cpp.s:
+	$(MAKE) -f CMakeFiles/lab2.dir/build.make CMakeFiles/lab2.dir/File.cpp.s
+.PHONY : File.cpp.s
 
 main.o: main.cpp.o
 
@@ -186,9 +240,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... lab2"
 	@echo "... edit_cache"
+	@echo "... Base.o"
+	@echo "... Base.i"
+	@echo "... Base.s"
 	@echo "... Directory.o"
 	@echo "... Directory.i"
 	@echo "... Directory.s"
+	@echo "... File.o"
+	@echo "... File.i"
+	@echo "... File.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

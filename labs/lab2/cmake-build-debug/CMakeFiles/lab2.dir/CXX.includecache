@@ -6,7 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/paolo/CLionProjects/ProgII/labs/lab2/Directory.h
+/home/paolo/CLionProjects/PdS_parte_2/labs/lab2/Base.h
+
+/home/paolo/CLionProjects/PdS_parte_2/labs/lab2/Directory.h
 string
 -
 memory
@@ -15,12 +17,30 @@ vector
 -
 unordered_map
 -
+Base.h
+/home/paolo/CLionProjects/PdS_parte_2/labs/lab2/Base.h
+File.h
+/home/paolo/CLionProjects/PdS_parte_2/labs/lab2/File.h
 
-/home/paolo/CLionProjects/ProgII/labs/lab2/main.cpp
+/home/paolo/CLionProjects/PdS_parte_2/labs/lab2/File.h
+cstdint
+-
+memory
+-
+Base.h
+/home/paolo/CLionProjects/PdS_parte_2/labs/lab2/Base.h
+
+/home/paolo/CLionProjects/PdS_parte_2/labs/lab2/main.cpp
 iostream
 -
 memory
 -
+fstream
+-
+iostream
+-
+filesystem
+-
 Directory.h
-/home/paolo/CLionProjects/ProgII/labs/lab2/Directory.h
+/home/paolo/CLionProjects/PdS_parte_2/labs/lab2/Directory.h
 

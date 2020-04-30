@@ -10,51 +10,53 @@ constexpr bool debug = true;
 
 std::shared_ptr<Directory> Directory::root = std::shared_ptr<Directory>(nullptr); // init variabile statica
 
-Directory::Directory(std::string name): name(std::move(name)) {
-    if(debug) std::cout << "Directory @" << this << ", name: " << this->name << std::endl;
+Directory::Directory(std::string name): Base(std::move(name)) {
+    if(debug) std::cout << "Directory @" << this << ", name: " << this->getName() << std::endl;
 }
 
-void Directory::ls(int indent) const {
-    if(debug) std::cout << "Directory::ls" << std::endl;
+void Directory::ls(int indent, int total_indent) const {
+    // if(debug) std::cout << "Directory::ls" << std::endl;
 
-    this->ls_recursive(indent, 0);
-}
-
-void Directory::ls_recursive(int indent_step, int total_indent) const {
     for(int i=0; i<total_indent; i++)
         std::cout << " ";
-    std::cout << "[+] " <<this->name << std::endl;
+    std::cout << "[+] " << this->getName() << std::endl;
 
-    // ricorsivamente lavoro sulle sottocartelle
-    for(const auto& subdir : this->children)
-        subdir.second->ls_recursive(indent_step, total_indent+indent_step);
+    // ricorsivamente suoi sotto elementi
+    for(const auto& child : this->children)
+        child.second->ls(indent, total_indent+indent);
 }
 
-std::shared_ptr<Directory> Directory::get(std::string name) {
+std::shared_ptr<Base> Directory::get(const std::string& name) {
     if(debug) std::cout << "Directory::get, name: " << name << std::endl;
 
     // casi gestiti a parte, in quanto non posso metterli nell'elenco dei weak pointer
-    if(!name.compare("."))
-        return(std::shared_ptr<Directory>(this->self.lock()));
-    if(!name.compare(".."))
-        return(std::shared_ptr<Directory>(this->parent.lock()));
+    if(name == ("."))
+        return(std::dynamic_pointer_cast<Base>(std::shared_ptr<Directory>(this->self.lock())));
+    if(name == (".."))
+        return(std::dynamic_pointer_cast<Base>(std::shared_ptr<Directory>(this->parent.lock())));
         //return(std::static_pointer_cast<Directory>(this->self.lock()));
 
     auto it = this->children.find(name);
     if(it != this->children.end()) // verifico se ho trovato elementi
-        return(std::shared_ptr<Directory>(it->second));
+        return(std::dynamic_pointer_cast<Base>(it->second));
 
-    if(debug) std::cout << "ERROR: directory not found, name: " << name << std::endl;
+    if(debug) std::cout << "Directory::get, ERROR: directory not found, name: " << name << std::endl;
 
-    return(std::shared_ptr<Directory>(nullptr));
+    return(std::shared_ptr<Base>(nullptr));
 }
 
-std::shared_ptr<Directory> Directory::addDirectory(std::string name) {
+std::shared_ptr<Directory> Directory::addDirectory(const std::string& name) {
     if(debug) std::cout << "Directory::addDirectory" << std::endl;
 
-    std::shared_ptr<Directory> dir = this->makeDirectory(name, this->self);
+    // verifico se non esiste ancora una cartella con quel nome nella cartella attuale
+    auto it = this->children.find(name);
+    if(it != this->children.end() && it->second->mType() == Directory_type)
+        return(std::dynamic_pointer_cast<Directory>(it->second)); // se esiste già, restituisco quella esistente
 
+    // creo la cartella
+    std::shared_ptr<Directory> dir = Directory::makeDirectory(name, this->self);
     this->children.insert_or_assign(name, dir);
+
     return(dir);
 }
 
@@ -78,9 +80,55 @@ std::shared_ptr<Directory> Directory::getRoot() {
 }
 
 Directory::~Directory() {
-    if(debug) std::cout << "~Directory @" << this << std::endl;
+    if(debug) std::cout << "~Directory @" << this << ", name: " << this->getName() << std::endl;
 }
 
 std::shared_ptr<Directory> Directory::getThis() {
     return(shared_from_this());
+}
+
+std::shared_ptr<Directory> Directory::getDir(const std::string &name) {
+    return(std::static_pointer_cast<Directory>(this->get(name)));
+}
+
+std::shared_ptr<File> Directory::addFile(const std::string &name, uintmax_t size) {
+    if(debug) std::cout << "Directory::addFile, name: " << name << ", size: " << size << std::endl;
+
+    // verifico se non esiste ancora un file con quel nome nella cartella attuale
+    auto it = this->children.find(name);
+    if(it != this->children.end() && it->second->mType() == File_type)
+        return(std::dynamic_pointer_cast<File>(it->second)); // se esiste già restituisco quello esistente
+
+    // creo un file
+    std::shared_ptr<File> file = File::makeFile(name, size); // Directory::makeDirectory(name, this->self);
+    this->children.insert_or_assign(name, file);
+
+    return(file);
+}
+
+std::shared_ptr<File> Directory::getFile(const std::string &name) {
+    return(std::dynamic_pointer_cast<File>(this->get(name)));
+}
+
+bool Directory::remove(const std::string &name) {
+    if(debug) std::cout << "Directory::remove, name: " << name << std::endl;
+
+    if(name == (".") || name == (".."))
+        return(false);
+
+    auto item = this->get(name);
+
+    // verifico se se esiste
+    if(item == nullptr) return(false);
+    if(debug) std::cout << "Directory::remove, object found!" << std::endl;
+
+    // rimuovo
+    this->children.extract(item->getName()); // rimuovo dalla mappa
+    item.reset(); // distruggo l'oggetto originale >> in automatico si distruggono gli eventuali sotto oggetti
+
+    return(true);
+}
+
+int Directory::mType() const {
+    return(Directory_type);
 }

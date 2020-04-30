@@ -43,10 +43,10 @@ RM = /opt/CLion/clion-2019.3.4/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/paolo/CLionProjects/ProgII/labs/lab2
+CMAKE_SOURCE_DIR = /home/paolo/CLionProjects/PdS_parte_2/labs/lab2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/paolo/CLionProjects/ProgII/labs/lab2/cmake-build-debug
+CMAKE_BINARY_DIR = /home/paolo/CLionProjects/PdS_parte_2/labs/lab2/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/lab2.dir/depend.make
@@ -59,43 +59,73 @@ include CMakeFiles/lab2.dir/flags.make
 
 CMakeFiles/lab2.dir/main.cpp.o: CMakeFiles/lab2.dir/flags.make
 CMakeFiles/lab2.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/paolo/CLionProjects/ProgII/labs/lab2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lab2.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab2.dir/main.cpp.o -c /home/paolo/CLionProjects/ProgII/labs/lab2/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/paolo/CLionProjects/PdS_parte_2/labs/lab2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lab2.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab2.dir/main.cpp.o -c /home/paolo/CLionProjects/PdS_parte_2/labs/lab2/main.cpp
 
 CMakeFiles/lab2.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab2.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/paolo/CLionProjects/ProgII/labs/lab2/main.cpp > CMakeFiles/lab2.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/paolo/CLionProjects/PdS_parte_2/labs/lab2/main.cpp > CMakeFiles/lab2.dir/main.cpp.i
 
 CMakeFiles/lab2.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab2.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/paolo/CLionProjects/ProgII/labs/lab2/main.cpp -o CMakeFiles/lab2.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/paolo/CLionProjects/PdS_parte_2/labs/lab2/main.cpp -o CMakeFiles/lab2.dir/main.cpp.s
 
 CMakeFiles/lab2.dir/Directory.cpp.o: CMakeFiles/lab2.dir/flags.make
 CMakeFiles/lab2.dir/Directory.cpp.o: ../Directory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/paolo/CLionProjects/ProgII/labs/lab2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/lab2.dir/Directory.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab2.dir/Directory.cpp.o -c /home/paolo/CLionProjects/ProgII/labs/lab2/Directory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/paolo/CLionProjects/PdS_parte_2/labs/lab2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/lab2.dir/Directory.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab2.dir/Directory.cpp.o -c /home/paolo/CLionProjects/PdS_parte_2/labs/lab2/Directory.cpp
 
 CMakeFiles/lab2.dir/Directory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab2.dir/Directory.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/paolo/CLionProjects/ProgII/labs/lab2/Directory.cpp > CMakeFiles/lab2.dir/Directory.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/paolo/CLionProjects/PdS_parte_2/labs/lab2/Directory.cpp > CMakeFiles/lab2.dir/Directory.cpp.i
 
 CMakeFiles/lab2.dir/Directory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab2.dir/Directory.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/paolo/CLionProjects/ProgII/labs/lab2/Directory.cpp -o CMakeFiles/lab2.dir/Directory.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/paolo/CLionProjects/PdS_parte_2/labs/lab2/Directory.cpp -o CMakeFiles/lab2.dir/Directory.cpp.s
+
+CMakeFiles/lab2.dir/Base.cpp.o: CMakeFiles/lab2.dir/flags.make
+CMakeFiles/lab2.dir/Base.cpp.o: ../Base.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/paolo/CLionProjects/PdS_parte_2/labs/lab2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/lab2.dir/Base.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab2.dir/Base.cpp.o -c /home/paolo/CLionProjects/PdS_parte_2/labs/lab2/Base.cpp
+
+CMakeFiles/lab2.dir/Base.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab2.dir/Base.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/paolo/CLionProjects/PdS_parte_2/labs/lab2/Base.cpp > CMakeFiles/lab2.dir/Base.cpp.i
+
+CMakeFiles/lab2.dir/Base.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab2.dir/Base.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/paolo/CLionProjects/PdS_parte_2/labs/lab2/Base.cpp -o CMakeFiles/lab2.dir/Base.cpp.s
+
+CMakeFiles/lab2.dir/File.cpp.o: CMakeFiles/lab2.dir/flags.make
+CMakeFiles/lab2.dir/File.cpp.o: ../File.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/paolo/CLionProjects/PdS_parte_2/labs/lab2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/lab2.dir/File.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab2.dir/File.cpp.o -c /home/paolo/CLionProjects/PdS_parte_2/labs/lab2/File.cpp
+
+CMakeFiles/lab2.dir/File.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab2.dir/File.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/paolo/CLionProjects/PdS_parte_2/labs/lab2/File.cpp > CMakeFiles/lab2.dir/File.cpp.i
+
+CMakeFiles/lab2.dir/File.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab2.dir/File.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/paolo/CLionProjects/PdS_parte_2/labs/lab2/File.cpp -o CMakeFiles/lab2.dir/File.cpp.s
 
 # Object files for target lab2
 lab2_OBJECTS = \
 "CMakeFiles/lab2.dir/main.cpp.o" \
-"CMakeFiles/lab2.dir/Directory.cpp.o"
+"CMakeFiles/lab2.dir/Directory.cpp.o" \
+"CMakeFiles/lab2.dir/Base.cpp.o" \
+"CMakeFiles/lab2.dir/File.cpp.o"
 
 # External object files for target lab2
 lab2_EXTERNAL_OBJECTS =
 
 lab2: CMakeFiles/lab2.dir/main.cpp.o
 lab2: CMakeFiles/lab2.dir/Directory.cpp.o
+lab2: CMakeFiles/lab2.dir/Base.cpp.o
+lab2: CMakeFiles/lab2.dir/File.cpp.o
 lab2: CMakeFiles/lab2.dir/build.make
 lab2: CMakeFiles/lab2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/paolo/CLionProjects/ProgII/labs/lab2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable lab2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/paolo/CLionProjects/PdS_parte_2/labs/lab2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable lab2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lab2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -108,6 +138,6 @@ CMakeFiles/lab2.dir/clean:
 .PHONY : CMakeFiles/lab2.dir/clean
 
 CMakeFiles/lab2.dir/depend:
-	cd /home/paolo/CLionProjects/ProgII/labs/lab2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/paolo/CLionProjects/ProgII/labs/lab2 /home/paolo/CLionProjects/ProgII/labs/lab2 /home/paolo/CLionProjects/ProgII/labs/lab2/cmake-build-debug /home/paolo/CLionProjects/ProgII/labs/lab2/cmake-build-debug /home/paolo/CLionProjects/ProgII/labs/lab2/cmake-build-debug/CMakeFiles/lab2.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/paolo/CLionProjects/PdS_parte_2/labs/lab2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/paolo/CLionProjects/PdS_parte_2/labs/lab2 /home/paolo/CLionProjects/PdS_parte_2/labs/lab2 /home/paolo/CLionProjects/PdS_parte_2/labs/lab2/cmake-build-debug /home/paolo/CLionProjects/PdS_parte_2/labs/lab2/cmake-build-debug /home/paolo/CLionProjects/PdS_parte_2/labs/lab2/cmake-build-debug/CMakeFiles/lab2.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/lab2.dir/depend
 
