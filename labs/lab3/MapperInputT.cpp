@@ -5,12 +5,12 @@
 #include "MapperInputT.h"
 
 
-template<typename K, typename T>
-MapperInputT<K, T>::MapperInputT(std::unary_function<K, T> &action) : action(action){
+template<typename T>
+MapperInputT<T>::MapperInputT(const std::unary_function<std::string, ResultT<T>>& action) : action(action){
 
 }
 
-template<typename K, typename T>
-ResultT<K, T> &MapperInputT<K, T>::operator()(T input) {
+template<typename T>
+ResultT<T> &MapperInputT<T>::operator()(T input) {
     return this->action(input);
 }

@@ -47,10 +47,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\Paolo\Poli\prog\prog2_Malnati\labs\lab3
+CMAKE_SOURCE_DIR = E:\Paolo\Poli\prog\prog2_Malnati\PdS_parte_2\labs\lab3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\Paolo\Poli\prog\prog2_Malnati\labs\lab3\cmake-build-debug
+CMAKE_BINARY_DIR = E:\Paolo\Poli\prog\prog2_Malnati\PdS_parte_2\labs\lab3\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\Paolo\Poli\prog\prog2_Malnati\labs\lab3\cmake-build-debug\CMakeFiles E:\Paolo\Poli\prog\prog2_Malnati\labs\lab3\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\Paolo\Poli\prog\prog2_Malnati\PdS_parte_2\labs\lab3\cmake-build-debug\CMakeFiles E:\Paolo\Poli\prog\prog2_Malnati\PdS_parte_2\labs\lab3\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\Paolo\Poli\prog\prog2_Malnati\labs\lab3\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\Paolo\Poli\prog\prog2_Malnati\PdS_parte_2\labs\lab3\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -175,6 +175,33 @@ DurationLogger.s: DurationLogger.cpp.s
 DurationLogger.cpp.s:
 	$(MAKE) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/DurationLogger.cpp.s
 .PHONY : DurationLogger.cpp.s
+
+Log.obj: Log.cpp.obj
+
+.PHONY : Log.obj
+
+# target to build an object file
+Log.cpp.obj:
+	$(MAKE) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/Log.cpp.obj
+.PHONY : Log.cpp.obj
+
+Log.i: Log.cpp.i
+
+.PHONY : Log.i
+
+# target to preprocess a source file
+Log.cpp.i:
+	$(MAKE) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/Log.cpp.i
+.PHONY : Log.cpp.i
+
+Log.s: Log.cpp.s
+
+.PHONY : Log.s
+
+# target to generate assembly for a file
+Log.cpp.s:
+	$(MAKE) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/Log.cpp.s
+.PHONY : Log.cpp.s
 
 MapperInputT.obj: MapperInputT.cpp.obj
 
@@ -299,6 +326,9 @@ help:
 	@echo ... DurationLogger.obj
 	@echo ... DurationLogger.i
 	@echo ... DurationLogger.s
+	@echo ... Log.obj
+	@echo ... Log.i
+	@echo ... Log.s
 	@echo ... MapperInputT.obj
 	@echo ... MapperInputT.i
 	@echo ... MapperInputT.s

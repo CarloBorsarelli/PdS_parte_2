@@ -6,15 +6,23 @@
 #define LAB3_RESULTT_H
 
 
-template<typename K, typename T>
+#include <unordered_map>
+
+template<typename T>
 class ResultT {
 private:
-    K key;
+    std::string key;
     T value;
-    T acc;
 
 public:
-    T operator()(K key);
+    ResultT(std::string key, T value);
+
+    [[nodiscard]] std::string get_key() const;
+    void set_key(std::string key);
+    T get_value() const;
+    void set_value(T value);
+
+    ~ResultT();
 };
 
 

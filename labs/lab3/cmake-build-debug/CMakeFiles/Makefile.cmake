@@ -24,7 +24,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/JetBrains/CLion 2020.1.1/bin/cmake/win/share/cmake-3.16/Modules/Compiler/GNU-CXX.cmake"
   "C:/Program Files/JetBrains/CLion 2020.1.1/bin/cmake/win/share/cmake-3.16/Modules/Compiler/GNU.cmake"
   "C:/Program Files/JetBrains/CLion 2020.1.1/bin/cmake/win/share/cmake-3.16/Modules/Internal/CMakeCheckCompilerFlag.cmake"
-  "C:/Program Files/JetBrains/CLion 2020.1.1/bin/cmake/win/share/cmake-3.16/Modules/Platform/Windows-GNU-C-ABI.cmake"
   "C:/Program Files/JetBrains/CLion 2020.1.1/bin/cmake/win/share/cmake-3.16/Modules/Platform/Windows-GNU-C.cmake"
   "C:/Program Files/JetBrains/CLion 2020.1.1/bin/cmake/win/share/cmake-3.16/Modules/Platform/Windows-GNU-CXX-ABI.cmake"
   "C:/Program Files/JetBrains/CLion 2020.1.1/bin/cmake/win/share/cmake-3.16/Modules/Platform/Windows-GNU-CXX.cmake"

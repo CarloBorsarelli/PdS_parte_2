@@ -9,14 +9,18 @@
 #include <functional>
 #include "ResultT.h"
 
-template<typename K, typename T>
+template<typename T, typename A>
 class ReducerInputT {
+    std::string key;
+    T value;
+    A acc;
+
 private:
-    std::binary_function<K, T, T> action;
+    std::binary_function<std::string, T, T> action;
 
 public:
-    explicit ReducerInputT(std::binary_function<K, T, T>& action);
-    ResultT<K, T>& operator()(T input);
+    explicit ReducerInputT(std::binary_function<std::string, T, T>& action);
+    ResultT<T>& operator()(T input);
 
 };
 

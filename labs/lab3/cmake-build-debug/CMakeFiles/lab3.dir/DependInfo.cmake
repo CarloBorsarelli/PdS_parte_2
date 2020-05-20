@@ -4,12 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "E:/Paolo/Poli/prog/prog2_Malnati/labs/lab3/CoordinatorT.cpp" "E:/Paolo/Poli/prog/prog2_Malnati/labs/lab3/cmake-build-debug/CMakeFiles/lab3.dir/CoordinatorT.cpp.obj"
-  "E:/Paolo/Poli/prog/prog2_Malnati/labs/lab3/DurationLogger.cpp" "E:/Paolo/Poli/prog/prog2_Malnati/labs/lab3/cmake-build-debug/CMakeFiles/lab3.dir/DurationLogger.cpp.obj"
-  "E:/Paolo/Poli/prog/prog2_Malnati/labs/lab3/MapperInputT.cpp" "E:/Paolo/Poli/prog/prog2_Malnati/labs/lab3/cmake-build-debug/CMakeFiles/lab3.dir/MapperInputT.cpp.obj"
-  "E:/Paolo/Poli/prog/prog2_Malnati/labs/lab3/ReducerInputT.cpp" "E:/Paolo/Poli/prog/prog2_Malnati/labs/lab3/cmake-build-debug/CMakeFiles/lab3.dir/ReducerInputT.cpp.obj"
-  "E:/Paolo/Poli/prog/prog2_Malnati/labs/lab3/ResultT.cpp" "E:/Paolo/Poli/prog/prog2_Malnati/labs/lab3/cmake-build-debug/CMakeFiles/lab3.dir/ResultT.cpp.obj"
-  "E:/Paolo/Poli/prog/prog2_Malnati/labs/lab3/main.cpp" "E:/Paolo/Poli/prog/prog2_Malnati/labs/lab3/cmake-build-debug/CMakeFiles/lab3.dir/main.cpp.obj"
+  "E:/Paolo/Poli/prog/prog2_Malnati/PdS_parte_2/labs/lab3/CoordinatorT.cpp" "E:/Paolo/Poli/prog/prog2_Malnati/PdS_parte_2/labs/lab3/cmake-build-debug/CMakeFiles/lab3.dir/CoordinatorT.cpp.obj"
+  "E:/Paolo/Poli/prog/prog2_Malnati/PdS_parte_2/labs/lab3/DurationLogger.cpp" "E:/Paolo/Poli/prog/prog2_Malnati/PdS_parte_2/labs/lab3/cmake-build-debug/CMakeFiles/lab3.dir/DurationLogger.cpp.obj"
+  "E:/Paolo/Poli/prog/prog2_Malnati/PdS_parte_2/labs/lab3/Log.cpp" "E:/Paolo/Poli/prog/prog2_Malnati/PdS_parte_2/labs/lab3/cmake-build-debug/CMakeFiles/lab3.dir/Log.cpp.obj"
+  "E:/Paolo/Poli/prog/prog2_Malnati/PdS_parte_2/labs/lab3/MapperInputT.cpp" "E:/Paolo/Poli/prog/prog2_Malnati/PdS_parte_2/labs/lab3/cmake-build-debug/CMakeFiles/lab3.dir/MapperInputT.cpp.obj"
+  "E:/Paolo/Poli/prog/prog2_Malnati/PdS_parte_2/labs/lab3/ReducerInputT.cpp" "E:/Paolo/Poli/prog/prog2_Malnati/PdS_parte_2/labs/lab3/cmake-build-debug/CMakeFiles/lab3.dir/ReducerInputT.cpp.obj"
+  "E:/Paolo/Poli/prog/prog2_Malnati/PdS_parte_2/labs/lab3/ResultT.cpp" "E:/Paolo/Poli/prog/prog2_Malnati/PdS_parte_2/labs/lab3/cmake-build-debug/CMakeFiles/lab3.dir/ResultT.cpp.obj"
+  "E:/Paolo/Poli/prog/prog2_Malnati/PdS_parte_2/labs/lab3/main.cpp" "E:/Paolo/Poli/prog/prog2_Malnati/PdS_parte_2/labs/lab3/cmake-build-debug/CMakeFiles/lab3.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

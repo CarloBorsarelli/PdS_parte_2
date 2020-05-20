@@ -42,10 +42,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\Paolo\Poli\prog\prog2_Malnati\labs\lab3
+CMAKE_SOURCE_DIR = E:\Paolo\Poli\prog\prog2_Malnati\PdS_parte_2\labs\lab3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\Paolo\Poli\prog\prog2_Malnati\labs\lab3\cmake-build-debug
+CMAKE_BINARY_DIR = E:\Paolo\Poli\prog\prog2_Malnati\PdS_parte_2\labs\lab3\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/lab3.dir/depend.make
@@ -58,81 +58,94 @@ include CMakeFiles/lab3.dir/flags.make
 
 CMakeFiles/lab3.dir/main.cpp.obj: CMakeFiles/lab3.dir/flags.make
 CMakeFiles/lab3.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Paolo\Poli\prog\prog2_Malnati\labs\lab3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lab3.dir/main.cpp.obj"
-	C:\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab3.dir\main.cpp.obj -c E:\Paolo\Poli\prog\prog2_Malnati\labs\lab3\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Paolo\Poli\prog\prog2_Malnati\PdS_parte_2\labs\lab3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lab3.dir/main.cpp.obj"
+	C:\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab3.dir\main.cpp.obj -c E:\Paolo\Poli\prog\prog2_Malnati\PdS_parte_2\labs\lab3\main.cpp
 
 CMakeFiles/lab3.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab3.dir/main.cpp.i"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Paolo\Poli\prog\prog2_Malnati\labs\lab3\main.cpp > CMakeFiles\lab3.dir\main.cpp.i
+	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Paolo\Poli\prog\prog2_Malnati\PdS_parte_2\labs\lab3\main.cpp > CMakeFiles\lab3.dir\main.cpp.i
 
 CMakeFiles/lab3.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab3.dir/main.cpp.s"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Paolo\Poli\prog\prog2_Malnati\labs\lab3\main.cpp -o CMakeFiles\lab3.dir\main.cpp.s
+	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Paolo\Poli\prog\prog2_Malnati\PdS_parte_2\labs\lab3\main.cpp -o CMakeFiles\lab3.dir\main.cpp.s
 
 CMakeFiles/lab3.dir/ResultT.cpp.obj: CMakeFiles/lab3.dir/flags.make
 CMakeFiles/lab3.dir/ResultT.cpp.obj: ../ResultT.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Paolo\Poli\prog\prog2_Malnati\labs\lab3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/lab3.dir/ResultT.cpp.obj"
-	C:\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab3.dir\ResultT.cpp.obj -c E:\Paolo\Poli\prog\prog2_Malnati\labs\lab3\ResultT.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Paolo\Poli\prog\prog2_Malnati\PdS_parte_2\labs\lab3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/lab3.dir/ResultT.cpp.obj"
+	C:\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab3.dir\ResultT.cpp.obj -c E:\Paolo\Poli\prog\prog2_Malnati\PdS_parte_2\labs\lab3\ResultT.cpp
 
 CMakeFiles/lab3.dir/ResultT.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab3.dir/ResultT.cpp.i"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Paolo\Poli\prog\prog2_Malnati\labs\lab3\ResultT.cpp > CMakeFiles\lab3.dir\ResultT.cpp.i
+	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Paolo\Poli\prog\prog2_Malnati\PdS_parte_2\labs\lab3\ResultT.cpp > CMakeFiles\lab3.dir\ResultT.cpp.i
 
 CMakeFiles/lab3.dir/ResultT.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab3.dir/ResultT.cpp.s"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Paolo\Poli\prog\prog2_Malnati\labs\lab3\ResultT.cpp -o CMakeFiles\lab3.dir\ResultT.cpp.s
+	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Paolo\Poli\prog\prog2_Malnati\PdS_parte_2\labs\lab3\ResultT.cpp -o CMakeFiles\lab3.dir\ResultT.cpp.s
 
 CMakeFiles/lab3.dir/MapperInputT.cpp.obj: CMakeFiles/lab3.dir/flags.make
 CMakeFiles/lab3.dir/MapperInputT.cpp.obj: ../MapperInputT.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Paolo\Poli\prog\prog2_Malnati\labs\lab3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/lab3.dir/MapperInputT.cpp.obj"
-	C:\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab3.dir\MapperInputT.cpp.obj -c E:\Paolo\Poli\prog\prog2_Malnati\labs\lab3\MapperInputT.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Paolo\Poli\prog\prog2_Malnati\PdS_parte_2\labs\lab3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/lab3.dir/MapperInputT.cpp.obj"
+	C:\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab3.dir\MapperInputT.cpp.obj -c E:\Paolo\Poli\prog\prog2_Malnati\PdS_parte_2\labs\lab3\MapperInputT.cpp
 
 CMakeFiles/lab3.dir/MapperInputT.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab3.dir/MapperInputT.cpp.i"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Paolo\Poli\prog\prog2_Malnati\labs\lab3\MapperInputT.cpp > CMakeFiles\lab3.dir\MapperInputT.cpp.i
+	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Paolo\Poli\prog\prog2_Malnati\PdS_parte_2\labs\lab3\MapperInputT.cpp > CMakeFiles\lab3.dir\MapperInputT.cpp.i
 
 CMakeFiles/lab3.dir/MapperInputT.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab3.dir/MapperInputT.cpp.s"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Paolo\Poli\prog\prog2_Malnati\labs\lab3\MapperInputT.cpp -o CMakeFiles\lab3.dir\MapperInputT.cpp.s
+	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Paolo\Poli\prog\prog2_Malnati\PdS_parte_2\labs\lab3\MapperInputT.cpp -o CMakeFiles\lab3.dir\MapperInputT.cpp.s
 
 CMakeFiles/lab3.dir/ReducerInputT.cpp.obj: CMakeFiles/lab3.dir/flags.make
 CMakeFiles/lab3.dir/ReducerInputT.cpp.obj: ../ReducerInputT.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Paolo\Poli\prog\prog2_Malnati\labs\lab3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/lab3.dir/ReducerInputT.cpp.obj"
-	C:\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab3.dir\ReducerInputT.cpp.obj -c E:\Paolo\Poli\prog\prog2_Malnati\labs\lab3\ReducerInputT.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Paolo\Poli\prog\prog2_Malnati\PdS_parte_2\labs\lab3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/lab3.dir/ReducerInputT.cpp.obj"
+	C:\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab3.dir\ReducerInputT.cpp.obj -c E:\Paolo\Poli\prog\prog2_Malnati\PdS_parte_2\labs\lab3\ReducerInputT.cpp
 
 CMakeFiles/lab3.dir/ReducerInputT.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab3.dir/ReducerInputT.cpp.i"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Paolo\Poli\prog\prog2_Malnati\labs\lab3\ReducerInputT.cpp > CMakeFiles\lab3.dir\ReducerInputT.cpp.i
+	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Paolo\Poli\prog\prog2_Malnati\PdS_parte_2\labs\lab3\ReducerInputT.cpp > CMakeFiles\lab3.dir\ReducerInputT.cpp.i
 
 CMakeFiles/lab3.dir/ReducerInputT.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab3.dir/ReducerInputT.cpp.s"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Paolo\Poli\prog\prog2_Malnati\labs\lab3\ReducerInputT.cpp -o CMakeFiles\lab3.dir\ReducerInputT.cpp.s
+	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Paolo\Poli\prog\prog2_Malnati\PdS_parte_2\labs\lab3\ReducerInputT.cpp -o CMakeFiles\lab3.dir\ReducerInputT.cpp.s
 
 CMakeFiles/lab3.dir/CoordinatorT.cpp.obj: CMakeFiles/lab3.dir/flags.make
 CMakeFiles/lab3.dir/CoordinatorT.cpp.obj: ../CoordinatorT.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Paolo\Poli\prog\prog2_Malnati\labs\lab3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/lab3.dir/CoordinatorT.cpp.obj"
-	C:\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab3.dir\CoordinatorT.cpp.obj -c E:\Paolo\Poli\prog\prog2_Malnati\labs\lab3\CoordinatorT.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Paolo\Poli\prog\prog2_Malnati\PdS_parte_2\labs\lab3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/lab3.dir/CoordinatorT.cpp.obj"
+	C:\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab3.dir\CoordinatorT.cpp.obj -c E:\Paolo\Poli\prog\prog2_Malnati\PdS_parte_2\labs\lab3\CoordinatorT.cpp
 
 CMakeFiles/lab3.dir/CoordinatorT.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab3.dir/CoordinatorT.cpp.i"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Paolo\Poli\prog\prog2_Malnati\labs\lab3\CoordinatorT.cpp > CMakeFiles\lab3.dir\CoordinatorT.cpp.i
+	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Paolo\Poli\prog\prog2_Malnati\PdS_parte_2\labs\lab3\CoordinatorT.cpp > CMakeFiles\lab3.dir\CoordinatorT.cpp.i
 
 CMakeFiles/lab3.dir/CoordinatorT.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab3.dir/CoordinatorT.cpp.s"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Paolo\Poli\prog\prog2_Malnati\labs\lab3\CoordinatorT.cpp -o CMakeFiles\lab3.dir\CoordinatorT.cpp.s
+	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Paolo\Poli\prog\prog2_Malnati\PdS_parte_2\labs\lab3\CoordinatorT.cpp -o CMakeFiles\lab3.dir\CoordinatorT.cpp.s
 
 CMakeFiles/lab3.dir/DurationLogger.cpp.obj: CMakeFiles/lab3.dir/flags.make
 CMakeFiles/lab3.dir/DurationLogger.cpp.obj: ../DurationLogger.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Paolo\Poli\prog\prog2_Malnati\labs\lab3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/lab3.dir/DurationLogger.cpp.obj"
-	C:\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab3.dir\DurationLogger.cpp.obj -c E:\Paolo\Poli\prog\prog2_Malnati\labs\lab3\DurationLogger.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Paolo\Poli\prog\prog2_Malnati\PdS_parte_2\labs\lab3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/lab3.dir/DurationLogger.cpp.obj"
+	C:\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab3.dir\DurationLogger.cpp.obj -c E:\Paolo\Poli\prog\prog2_Malnati\PdS_parte_2\labs\lab3\DurationLogger.cpp
 
 CMakeFiles/lab3.dir/DurationLogger.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab3.dir/DurationLogger.cpp.i"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Paolo\Poli\prog\prog2_Malnati\labs\lab3\DurationLogger.cpp > CMakeFiles\lab3.dir\DurationLogger.cpp.i
+	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Paolo\Poli\prog\prog2_Malnati\PdS_parte_2\labs\lab3\DurationLogger.cpp > CMakeFiles\lab3.dir\DurationLogger.cpp.i
 
 CMakeFiles/lab3.dir/DurationLogger.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab3.dir/DurationLogger.cpp.s"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Paolo\Poli\prog\prog2_Malnati\labs\lab3\DurationLogger.cpp -o CMakeFiles\lab3.dir\DurationLogger.cpp.s
+	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Paolo\Poli\prog\prog2_Malnati\PdS_parte_2\labs\lab3\DurationLogger.cpp -o CMakeFiles\lab3.dir\DurationLogger.cpp.s
+
+CMakeFiles/lab3.dir/Log.cpp.obj: CMakeFiles/lab3.dir/flags.make
+CMakeFiles/lab3.dir/Log.cpp.obj: ../Log.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Paolo\Poli\prog\prog2_Malnati\PdS_parte_2\labs\lab3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/lab3.dir/Log.cpp.obj"
+	C:\MinGW\bin\mingw32-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab3.dir\Log.cpp.obj -c E:\Paolo\Poli\prog\prog2_Malnati\PdS_parte_2\labs\lab3\Log.cpp
+
+CMakeFiles/lab3.dir/Log.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab3.dir/Log.cpp.i"
+	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Paolo\Poli\prog\prog2_Malnati\PdS_parte_2\labs\lab3\Log.cpp > CMakeFiles\lab3.dir\Log.cpp.i
+
+CMakeFiles/lab3.dir/Log.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab3.dir/Log.cpp.s"
+	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Paolo\Poli\prog\prog2_Malnati\PdS_parte_2\labs\lab3\Log.cpp -o CMakeFiles\lab3.dir\Log.cpp.s
 
 # Object files for target lab3
 lab3_OBJECTS = \
@@ -141,7 +154,8 @@ lab3_OBJECTS = \
 "CMakeFiles/lab3.dir/MapperInputT.cpp.obj" \
 "CMakeFiles/lab3.dir/ReducerInputT.cpp.obj" \
 "CMakeFiles/lab3.dir/CoordinatorT.cpp.obj" \
-"CMakeFiles/lab3.dir/DurationLogger.cpp.obj"
+"CMakeFiles/lab3.dir/DurationLogger.cpp.obj" \
+"CMakeFiles/lab3.dir/Log.cpp.obj"
 
 # External object files for target lab3
 lab3_EXTERNAL_OBJECTS =
@@ -152,11 +166,12 @@ lab3.exe: CMakeFiles/lab3.dir/MapperInputT.cpp.obj
 lab3.exe: CMakeFiles/lab3.dir/ReducerInputT.cpp.obj
 lab3.exe: CMakeFiles/lab3.dir/CoordinatorT.cpp.obj
 lab3.exe: CMakeFiles/lab3.dir/DurationLogger.cpp.obj
+lab3.exe: CMakeFiles/lab3.dir/Log.cpp.obj
 lab3.exe: CMakeFiles/lab3.dir/build.make
 lab3.exe: CMakeFiles/lab3.dir/linklibs.rsp
 lab3.exe: CMakeFiles/lab3.dir/objects1.rsp
 lab3.exe: CMakeFiles/lab3.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\Paolo\Poli\prog\prog2_Malnati\labs\lab3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable lab3.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\Paolo\Poli\prog\prog2_Malnati\PdS_parte_2\labs\lab3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable lab3.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\lab3.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -169,6 +184,6 @@ CMakeFiles/lab3.dir/clean:
 .PHONY : CMakeFiles/lab3.dir/clean
 
 CMakeFiles/lab3.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\Paolo\Poli\prog\prog2_Malnati\labs\lab3 E:\Paolo\Poli\prog\prog2_Malnati\labs\lab3 E:\Paolo\Poli\prog\prog2_Malnati\labs\lab3\cmake-build-debug E:\Paolo\Poli\prog\prog2_Malnati\labs\lab3\cmake-build-debug E:\Paolo\Poli\prog\prog2_Malnati\labs\lab3\cmake-build-debug\CMakeFiles\lab3.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\Paolo\Poli\prog\prog2_Malnati\PdS_parte_2\labs\lab3 E:\Paolo\Poli\prog\prog2_Malnati\PdS_parte_2\labs\lab3 E:\Paolo\Poli\prog\prog2_Malnati\PdS_parte_2\labs\lab3\cmake-build-debug E:\Paolo\Poli\prog\prog2_Malnati\PdS_parte_2\labs\lab3\cmake-build-debug E:\Paolo\Poli\prog\prog2_Malnati\PdS_parte_2\labs\lab3\cmake-build-debug\CMakeFiles\lab3.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/lab3.dir/depend
 

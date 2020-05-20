@@ -6,59 +6,59 @@
 
 #IncludeRegexTransform: 
 
-E:/Paolo/Poli/prog/prog2_Malnati/labs/lab3/CoordinatorT.cpp
+E:/Paolo/Poli/prog/prog2_Malnati/PdS_parte_2/labs/lab3/CoordinatorT.cpp
 CoordinatorT.h
-E:/Paolo/Poli/prog/prog2_Malnati/labs/lab3/CoordinatorT.h
+E:/Paolo/Poli/prog/prog2_Malnati/PdS_parte_2/labs/lab3/CoordinatorT.h
 
-E:/Paolo/Poli/prog/prog2_Malnati/labs/lab3/CoordinatorT.h
+E:/Paolo/Poli/prog/prog2_Malnati/PdS_parte_2/labs/lab3/CoordinatorT.h
 vector
 -
 istream
 -
 
-E:/Paolo/Poli/prog/prog2_Malnati/labs/lab3/DurationLogger.cpp
+E:/Paolo/Poli/prog/prog2_Malnati/PdS_parte_2/labs/lab3/DurationLogger.cpp
 iostream
 -
 chrono
 -
 DurationLogger.h
-E:/Paolo/Poli/prog/prog2_Malnati/labs/lab3/DurationLogger.h
+E:/Paolo/Poli/prog/prog2_Malnati/PdS_parte_2/labs/lab3/DurationLogger.h
 
-E:/Paolo/Poli/prog/prog2_Malnati/labs/lab3/DurationLogger.h
+E:/Paolo/Poli/prog/prog2_Malnati/PdS_parte_2/labs/lab3/DurationLogger.h
 string
 -
 
-E:/Paolo/Poli/prog/prog2_Malnati/labs/lab3/MapperInputT.cpp
+E:/Paolo/Poli/prog/prog2_Malnati/PdS_parte_2/labs/lab3/MapperInputT.cpp
 MapperInputT.h
-E:/Paolo/Poli/prog/prog2_Malnati/labs/lab3/MapperInputT.h
+E:/Paolo/Poli/prog/prog2_Malnati/PdS_parte_2/labs/lab3/MapperInputT.h
 
-E:/Paolo/Poli/prog/prog2_Malnati/labs/lab3/MapperInputT.h
+E:/Paolo/Poli/prog/prog2_Malnati/PdS_parte_2/labs/lab3/MapperInputT.h
 functional
 -
 ResultT.h
-E:/Paolo/Poli/prog/prog2_Malnati/labs/lab3/ResultT.h
+E:/Paolo/Poli/prog/prog2_Malnati/PdS_parte_2/labs/lab3/ResultT.h
 
-E:/Paolo/Poli/prog/prog2_Malnati/labs/lab3/ReducerInputT.cpp
+E:/Paolo/Poli/prog/prog2_Malnati/PdS_parte_2/labs/lab3/ReducerInputT.cpp
 ReducerInputT.h
-E:/Paolo/Poli/prog/prog2_Malnati/labs/lab3/ReducerInputT.h
+E:/Paolo/Poli/prog/prog2_Malnati/PdS_parte_2/labs/lab3/ReducerInputT.h
 
-E:/Paolo/Poli/prog/prog2_Malnati/labs/lab3/ReducerInputT.h
+E:/Paolo/Poli/prog/prog2_Malnati/PdS_parte_2/labs/lab3/ReducerInputT.h
 functional
 -
 ResultT.h
-E:/Paolo/Poli/prog/prog2_Malnati/labs/lab3/ResultT.h
+E:/Paolo/Poli/prog/prog2_Malnati/PdS_parte_2/labs/lab3/ResultT.h
 
-E:/Paolo/Poli/prog/prog2_Malnati/labs/lab3/ResultT.cpp
+E:/Paolo/Poli/prog/prog2_Malnati/PdS_parte_2/labs/lab3/ResultT.cpp
 ResultT.h
-E:/Paolo/Poli/prog/prog2_Malnati/labs/lab3/ResultT.h
+E:/Paolo/Poli/prog/prog2_Malnati/PdS_parte_2/labs/lab3/ResultT.h
 
-E:/Paolo/Poli/prog/prog2_Malnati/labs/lab3/ResultT.h
+E:/Paolo/Poli/prog/prog2_Malnati/PdS_parte_2/labs/lab3/ResultT.h
 
-E:/Paolo/Poli/prog/prog2_Malnati/labs/lab3/main.cpp
+E:/Paolo/Poli/prog/prog2_Malnati/PdS_parte_2/labs/lab3/main.cpp
 iostream
 -
 MapperInputT.h
-E:/Paolo/Poli/prog/prog2_Malnati/labs/lab3/MapperInputT.h
+E:/Paolo/Poli/prog/prog2_Malnati/PdS_parte_2/labs/lab3/MapperInputT.h
 ReducerInputT.h
-E:/Paolo/Poli/prog/prog2_Malnati/labs/lab3/ReducerInputT.h
+E:/Paolo/Poli/prog/prog2_Malnati/PdS_parte_2/labs/lab3/ReducerInputT.h
 

@@ -10,6 +10,7 @@ ReducerInputT<K, T>::ReducerInputT(std::binary_function<K, T, T>& action) : acti
 }
 
 template<typename K, typename T>
-ResultT<K, T> &ReducerInputT<K, T>::operator()(T input) {
-    return this->action(input);
+ResultT<K, T> &ReducerInputT<K, T>::operator()(const K& key, const T& value, ResultT<K, T>& acc) {
+    acc->set(key, this->action(value, acc->get(key)));
+    return acc;
 }

@@ -19,7 +19,7 @@ public:
     ResultT reduce(const ReducerInputT& input);
 
     template<class MapperInputT, class ReducerInputT, class ResultT>
-    ResultT mapreduce(std::istream& input, const MapperInputT& mapper, const ReducerInputT& reducer);
+    std::vector<ResultT> mapreduce(std::istream& input, const MapperInputT& mapper, const ReducerInputT& reducer);
 };
 
 

@@ -9,14 +9,14 @@
 #include <functional>
 #include "ResultT.h"
 
-template<typename K, typename T>
+template<typename T>
 class MapperInputT {
 private:
-    std::unary_function<K, T> action;
+    std::unary_function<ResultT<T>, T> action;
 
 public:
-    explicit MapperInputT(std::unary_function<K, T>& action);
-    ResultT<K, T>& operator()(T input);
+    explicit MapperInputT(const std::unary_function<std::string, ResultT<T>>& action);
+    ResultT<T>& operator()(T input);
 };
 
 

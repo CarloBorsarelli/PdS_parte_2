@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/lab3.dir/CoordinatorT.cpp.obj"
   "CMakeFiles/lab3.dir/DurationLogger.cpp.obj"
+  "CMakeFiles/lab3.dir/Log.cpp.obj"
   "CMakeFiles/lab3.dir/MapperInputT.cpp.obj"
   "CMakeFiles/lab3.dir/ReducerInputT.cpp.obj"
   "CMakeFiles/lab3.dir/ResultT.cpp.obj"
